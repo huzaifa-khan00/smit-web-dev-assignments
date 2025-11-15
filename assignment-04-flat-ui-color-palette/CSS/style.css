@@ -7,6 +7,9 @@
 html, body {
     width: 100%;
     height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 .container {
@@ -40,6 +43,35 @@ html, body {
 .plt-box {
     height: 100%;
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.color-box-container {
+    width: 100%;
+    height: 85%;
+    background-color: blue;
+    /* margin-bottom: 5%; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color-box {
+    background-color: pink;
+    width: 20%;
+    height: 25%;
+    border: 1px solid;
+}
+
+.country-code {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 10%;
 }
 
 .au {
