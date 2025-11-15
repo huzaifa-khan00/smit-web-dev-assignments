@@ -20,25 +20,49 @@ html, body {
 }
 
 .row1, .row2{
-    height: 20vw;
-    width: 100vw;
+    height: 35vh;
+    width: 80vw;
     background-color: red;
     border: 1px solid;
 }
 
 .row1 {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 10vh;
 }
 
 .row2 {
     display: flex;
+    justify-content: space-between;
 }
 
 .plt-box {
-    width: 30%;
     height: 100%;
+    width: 30%;
+    
 }
 
-.au, .gb, .ca  {
+.au {
     background-color: greenyellow;
+}
+
+.gb {
+    background-color: orange;
+}
+
+.ca  {
+    background-color: cyan;
+}
+
+.nc {
+    background-color: greenyellow;
+}
+
+.nl {
+    background-color: orange;
+}
+
+.fr  {
+    background-color: cyan;
 }
